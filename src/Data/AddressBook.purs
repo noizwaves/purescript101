@@ -34,4 +34,4 @@ emptyBook :: AddressBook
 emptyBook = empty
 
 insertEntry :: Entry -> AddressBook -> AddressBook
-insertEntry entry book = Cons entry book
+insertEntry = Cons
